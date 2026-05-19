@@ -8,6 +8,14 @@
 - Brandon Oliveira Simões
 - Eriel de Jesus Souza
 
+
+## Programa em Funcionamento
+
+Abaixo está o GIF demonstrando a execução do programa:
+
+![Teste do programa](./teste.gif)
+
+
 ##  Estrutura da Classe Hora
 
 ### Atributos
@@ -46,10 +54,4 @@ Criar a classe `Hora.java` conforme especificação acima.
 
 Desenvolver um programa `testarHora.java` capaz de testar a classe e todos os métodos desenvolvidos no exercício anterior.
 
----
 
-## Programa em Funcionamento
-
-Abaixo está o GIF demonstrando a execução do programa:
-
-![Teste do programa](./teste.gif)
