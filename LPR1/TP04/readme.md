@@ -1,8 +1,8 @@
 # Trabalho Prático 04 - LPR1
 
-**Curso:** Análise e Desenvolvimento de Sistemas
-**Disciplina:** Linguagem de Programação 1
-**Trabalho:** TP04 - Classe Data
+- **Curso:** Análise e Desenvolvimento de Sistemas
+- **Disciplina:** Linguagem de Programação 1
+- **Trabalho:** TP04 - Classe Data
 
 **Dupla:**
 - Brandon Oliveira Simões
@@ -13,7 +13,7 @@
 
 Abaixo está o GIF demonstrando a execução do programa:
 
-<video src="./testeData.webm" autoplay loop muted playsinline></video>
+![Teste do programa](./teste.gif)
 
 
 ## Estrutura da Classe Data

@@ -1,7 +1,9 @@
 # Trabalho Prático 03 - LPR1
 
 **Curso:** Análise e Desenvolvimento de Sistemas 
+
 **Disciplina:** Linguagem de Programação 1 
+
 **Trabalho:** TP03 - Classe Hora
 
 **Dupla:**
