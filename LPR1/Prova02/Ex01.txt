@@ -1,0 +1,21 @@
+Classe: Data
+
+Atributos:
+- dia: int
+- mes: int
+- ano: int
+
+Métodos:
++ Data()
++ Data(d: int, m: int, a: int)
++ setDia(d: int): void
++ setMes(m: int): void
++ setAno(a: int): void
++ getDia(): int
++ getMes(): int
++ getAno(): int
++ mostra1(): String
++ mostra2(): String
++ bissexto(): boolean
++ diasTranscorridos(): int
++ apresentaDataAtual(): void
