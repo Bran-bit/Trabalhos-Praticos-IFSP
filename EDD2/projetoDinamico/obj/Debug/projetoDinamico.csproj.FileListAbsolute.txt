@@ -1,0 +1,9 @@
+C:\Users\aluno\source\repos\projetoDinamico\bin\Debug\projetoDinamico.exe.config
+C:\Users\aluno\source\repos\projetoDinamico\bin\Debug\projetoDinamico.exe
+C:\Users\aluno\source\repos\projetoDinamico\bin\Debug\projetoDinamico.pdb
+C:\Users\aluno\source\repos\projetoDinamico\obj\Debug\projetoDinamico.csproj.AssemblyReference.cache
+C:\Users\aluno\source\repos\projetoDinamico\obj\Debug\projetoDinamico.Properties.Resources.resources
+C:\Users\aluno\source\repos\projetoDinamico\obj\Debug\projetoDinamico.csproj.GenerateResource.cache
+C:\Users\aluno\source\repos\projetoDinamico\obj\Debug\projetoDinamico.csproj.CoreCompileInputs.cache
+C:\Users\aluno\source\repos\projetoDinamico\obj\Debug\projetoDinamico.exe
+C:\Users\aluno\source\repos\projetoDinamico\obj\Debug\projetoDinamico.pdb
