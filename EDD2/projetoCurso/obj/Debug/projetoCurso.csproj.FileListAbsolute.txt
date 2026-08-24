@@ -1,0 +1,8 @@
+C:\Users\aluno\source\repos\projetoCurso\bin\Debug\projetoCurso.exe.config
+C:\Users\aluno\source\repos\projetoCurso\bin\Debug\projetoCurso.exe
+C:\Users\aluno\source\repos\projetoCurso\bin\Debug\projetoCurso.pdb
+C:\Users\aluno\source\repos\projetoCurso\obj\Debug\projetoCurso.csproj.AssemblyReference.cache
+C:\Users\aluno\source\repos\projetoCurso\obj\Debug\projetoCurso.csproj.CoreCompileInputs.cache
+C:\Users\aluno\source\repos\projetoCurso\obj\Debug\projetoCurso.exe
+C:\Users\aluno\source\repos\projetoCurso\obj\Debug\projetoCurso.pdb
+C:\Users\aluno\source\repos\projetoCurso\obj\Debug\projetoCurso.exe.config

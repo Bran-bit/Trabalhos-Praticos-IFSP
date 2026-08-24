@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aluno\\source\\repos\\ProjetoVendedores\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8AFF24-72BB-4F05-9AA7-2387B6656AEA}|ProjetoVendedores.csproj|c:\\users\\aluno\\source\\repos\\projetovendedores\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD8AFF24-72BB-4F05-9AA7-2387B6656AEA}|ProjetoVendedores.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8AFF24-72BB-4F05-9AA7-2387B6656AEA}|ProjetoVendedores.csproj|c:\\users\\aluno\\source\\repos\\projetovendedores\\vendedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD8AFF24-72BB-4F05-9AA7-2387B6656AEA}|ProjetoVendedores.csproj|solutionrelative:vendedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8AFF24-72BB-4F05-9AA7-2387B6656AEA}|ProjetoVendedores.csproj|c:\\users\\aluno\\source\\repos\\projetovendedores\\vendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD8AFF24-72BB-4F05-9AA7-2387B6656AEA}|ProjetoVendedores.csproj|solutionrelative:vendedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8AFF24-72BB-4F05-9AA7-2387B6656AEA}|ProjetoVendedores.csproj|c:\\users\\aluno\\source\\repos\\projetovendedores\\venda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD8AFF24-72BB-4F05-9AA7-2387B6656AEA}|ProjetoVendedores.csproj|solutionrelative:venda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Vendedor.cs",
+              "DocumentMoniker": "C:\\Users\\aluno\\source\\repos\\ProjetoVendedores\\Vendedor.cs",
+              "RelativeDocumentMoniker": "Vendedor.cs",
+              "ToolTip": "C:\\Users\\aluno\\source\\repos\\ProjetoVendedores\\Vendedor.cs",
+              "RelativeToolTip": "Vendedor.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAswFwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T23:36:09.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Vendedores.cs",
+              "DocumentMoniker": "C:\\Users\\aluno\\source\\repos\\ProjetoVendedores\\Vendedores.cs",
+              "RelativeDocumentMoniker": "Vendedores.cs",
+              "ToolTip": "C:\\Users\\aluno\\source\\repos\\ProjetoVendedores\\Vendedores.cs",
+              "RelativeToolTip": "Vendedores.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T23:35:59.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Venda.cs",
+              "DocumentMoniker": "C:\\Users\\aluno\\source\\repos\\ProjetoVendedores\\Venda.cs",
+              "RelativeDocumentMoniker": "Venda.cs",
+              "ToolTip": "C:\\Users\\aluno\\source\\repos\\ProjetoVendedores\\Venda.cs",
+              "RelativeToolTip": "Venda.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAiwDUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T23:35:52.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\aluno\\source\\repos\\ProjetoVendedores\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\aluno\\source\\repos\\ProjetoVendedores\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAcwLsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T23:34:29.996Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

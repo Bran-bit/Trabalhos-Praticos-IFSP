@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aluno\\source\\repos\\projetoCurso\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE83946-4C58-429F-8B5D-79199F3B0379}|projetoCurso.csproj|c:\\users\\aluno\\source\\repos\\projetocurso\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBE83946-4C58-429F-8B5D-79199F3B0379}|projetoCurso.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE83946-4C58-429F-8B5D-79199F3B0379}|projetoCurso.csproj|c:\\users\\aluno\\source\\repos\\projetocurso\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBE83946-4C58-429F-8B5D-79199F3B0379}|projetoCurso.csproj|solutionrelative:curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE83946-4C58-429F-8B5D-79199F3B0379}|projetoCurso.csproj|c:\\users\\aluno\\source\\repos\\projetocurso\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBE83946-4C58-429F-8B5D-79199F3B0379}|projetoCurso.csproj|solutionrelative:aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE83946-4C58-429F-8B5D-79199F3B0379}|projetoCurso.csproj|c:\\users\\aluno\\source\\repos\\projetocurso\\escola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBE83946-4C58-429F-8B5D-79199F3B0379}|projetoCurso.csproj|solutionrelative:escola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE83946-4C58-429F-8B5D-79199F3B0379}|projetoCurso.csproj|c:\\users\\aluno\\source\\repos\\projetocurso\\disciplina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBE83946-4C58-429F-8B5D-79199F3B0379}|projetoCurso.csproj|solutionrelative:disciplina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Escola.cs",
+              "DocumentMoniker": "C:\\Users\\aluno\\source\\repos\\projetoCurso\\Escola.cs",
+              "RelativeDocumentMoniker": "Escola.cs",
+              "ToolTip": "C:\\Users\\aluno\\source\\repos\\projetoCurso\\Escola.cs",
+              "RelativeToolTip": "Escola.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAcwEEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T23:50:16.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Curso.cs",
+              "DocumentMoniker": "C:\\Users\\aluno\\source\\repos\\projetoCurso\\Curso.cs",
+              "RelativeDocumentMoniker": "Curso.cs",
+              "ToolTip": "C:\\Users\\aluno\\source\\repos\\projetoCurso\\Curso.cs",
+              "RelativeToolTip": "Curso.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAA2wGMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T23:50:05.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Disciplina.cs",
+              "DocumentMoniker": "C:\\Users\\aluno\\source\\repos\\projetoCurso\\Disciplina.cs",
+              "RelativeDocumentMoniker": "Disciplina.cs",
+              "ToolTip": "C:\\Users\\aluno\\source\\repos\\projetoCurso\\Disciplina.cs",
+              "RelativeToolTip": "Disciplina.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAcwFgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T23:49:55.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Aluno.cs",
+              "DocumentMoniker": "C:\\Users\\aluno\\source\\repos\\projetoCurso\\Aluno.cs",
+              "RelativeDocumentMoniker": "Aluno.cs",
+              "ToolTip": "C:\\Users\\aluno\\source\\repos\\projetoCurso\\Aluno.cs",
+              "RelativeToolTip": "Aluno.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T23:49:38.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\aluno\\source\\repos\\projetoCurso\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\aluno\\source\\repos\\projetoCurso\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAP8AAAAAAAAAAAAiwCYBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T23:49:14.945Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
