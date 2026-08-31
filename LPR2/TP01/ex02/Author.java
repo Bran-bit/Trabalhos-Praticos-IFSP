@@ -1,4 +1,9 @@
 package ex02;
+/**
+ * Dupla:
+ * Brandon Oliveira Simões
+ * Eriel de Jesus Souza
+ */
 
 public class Author {
     private String name;

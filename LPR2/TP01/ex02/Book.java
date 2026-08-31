@@ -1,4 +1,10 @@
 package ex02;
+/**
+ * Dupla:
+ * Brandon Oliveira Simões
+ * Eriel de Jesus Souza
+ */
+
 
 public class Book {
     private final String name;
