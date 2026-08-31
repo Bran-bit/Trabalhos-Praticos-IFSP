@@ -1,13 +1,15 @@
+package EX03;
+
 public class Student extends Person {
     private String program;
     private int year;
     private double fee;
 
     public Student(String name, String address, String program, int year, double fee) {
-        super(name, address); // Chama o construtor da superclasse Person
-        this.program = program;
-        this.year = year;
-        this.fee = fee;
+        super(name, address);
+        setProgram(program);
+        setYear(year);
+        setFee(fee);
     }
 
     public String getProgram() {
@@ -15,7 +17,10 @@ public class Student extends Person {
     }
 
     public void setProgram(String program) {
-        this.program = program;
+        if (program == null || program.trim().isEmpty()) {
+            throw new IllegalArgumentException("Programa não pode ser vazio");
+        }
+        this.program = program.trim();
     }
 
     public int getYear() {
@@ -23,6 +28,9 @@ public class Student extends Person {
     }
 
     public void setYear(int year) {
+        if (year < 1) {
+            throw new IllegalArgumentException("Ano deve ser maior ou igual a 1");
+        }
         this.year = year;
     }
 
@@ -31,13 +39,17 @@ public class Student extends Person {
     }
 
     public void setFee(double fee) {
+        if (fee < 0) {
+            throw new IllegalArgumentException("Mensalidade não pode ser negativa");
+        }
         this.fee = fee;
     }
 
+    @Override
     public String toString() {
-        return "Student[" + super.toString() + 
-               ",program=" + program + 
-               ",year=" + year + 
-               ",fee=" + fee + "]";
+        return "Student[" + super.toString() +
+                ",program=" + program +
+                ",year=" + year +
+                ",fee=" + fee + "]";
     }
 }
