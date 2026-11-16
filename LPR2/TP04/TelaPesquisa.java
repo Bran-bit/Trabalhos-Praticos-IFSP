@@ -23,6 +23,7 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.SwingUtilities;
 
+/** Tela principal do Trabalho Prático 04: pesquisa e navegação pelo recordset. */
 public class TelaPesquisa extends JFrame {
 
     private static final String SQL =
