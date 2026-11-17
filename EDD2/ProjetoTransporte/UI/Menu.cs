@@ -11,6 +11,18 @@ public class Menu
 
     public void Executar()
     {
+        try
+        {
+            Laco();
+        }
+        catch (EntradaEncerradaException)
+        {
+            Console.WriteLine("\nEntrada encerrada. Finalizando.");
+        }
+    }
+
+    private void Laco()
+    {
         int opcao;
         do
         {
@@ -114,12 +126,21 @@ public class Menu
     {
         var g = EscolherGaragem("Garagem");
         Console.WriteLine($"\nGaragem {g.Nome} — {g.Quantidade} veículo(s), potencial de transporte: {g.PotencialTransporte} passageiros");
-        if (g.EstaVazia) return;
+        if (g.EstaVazia)
+        {
+            if (!_empresa.JornadaIniciada)
+                Console.WriteLine("(jornada encerrada: os veículos só são distribuídos nas garagens ao iniciar a jornada)");
+            return;
+        }
 
         Console.WriteLine("(do primeiro a sair ao último)");
+        var proximo = g.ProximoASair;
         int pos = 1;
         foreach (var v in g.Veiculos)
-            Console.WriteLine($"  {pos++}º  {v}");
+        {
+            string marca = v == proximo ? "  <- próximo a sair" : "";
+            Console.WriteLine($"  {pos++}º  {v}{marca}");
+        }
     }
 
     private void InformarQuantidadeViagens()
@@ -148,8 +169,12 @@ public class Menu
     private (Garagem Origem, Garagem Destino) EscolherRota()
     {
         var origem = EscolherGaragem("Origem");
-        var destino = EscolherGaragem("Destino");
-        return (origem, destino);
+        while (true)
+        {
+            var destino = EscolherGaragem("Destino");
+            if (destino != origem) return (origem, destino);
+            Console.WriteLine("O destino deve ser diferente da origem.");
+        }
     }
 
     private Garagem EscolherGaragem(string rotulo)
@@ -176,7 +201,7 @@ public class Menu
         {
             Console.Write(prompt);
             var linha = Console.ReadLine();
-            if (linha == null) return 0;   // fim da entrada (EOF): sai com segurança
+            if (linha == null) throw new EntradaEncerradaException();
             if (int.TryParse(linha, out int valor) && valor >= min && valor <= max)
                 return valor;
             Console.WriteLine("Valor inválido.");

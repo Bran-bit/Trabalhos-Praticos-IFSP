@@ -9,11 +9,12 @@ Ao abrir, o programa já cadastra:
 - 2 garagens: **Congonhas** (código 1) e **Guarulhos** (código 2);
 - 8 vans numeradas de 1 a 8, com capacidade de 15 passageiros cada.
 
+Para alterar, edite o `Program.cs`. Novas garagens e vans podem ser cadastradas pelo menu.
+
 ### Suposições
 
 - Cada viagem sai com a lotação completa, então os passageiros transportados são iguais à capacidade da van.
 - Não há limite de vagas por garagem.
-
 
 ## Menu
 
@@ -32,13 +33,12 @@ Ao abrir, o programa já cadastra:
 
 ## Regras de negócio
 
-1. **Início da jornada:** os veículos são distribuídos alternadamente (round-robin) entre as garagens, na ordem de cadastro. Com 8 vans e 2 garagens, Congonhas recebe 1, 3, 5, 7 e Guarulhos recebe 2, 4, 6, 8.
+1. **Início da jornada:** os veículos são distribuídos alternadamente (round-robin) entre as garagens, na ordem de cadastro. Com 8 vans e 2 garagens, Congonhas recebe 1, 3, 5, 7 e Guarulhos recebe 2, 4, 6, 8. Como a garagem é uma pilha (LIFO), as vans são empilhadas do maior para o menor número, de modo que a Van 01 fica na frente em Congonhas e a Van 02 em Guarulhos (as primeiras a sair).
 2. **Viagem:** só pode ser liberada com a jornada iniciada. Sai o veículo da frente da garagem de origem (topo da pilha), viaja com a lotação completa e, ao chegar, é estacionado no destino.
 3. **Garagem vazia:** nenhuma viagem pode sair de uma garagem vazia até que um veículo retorne a ela.
-4. **Encerramento:** gera a lista veículo a veículo (viagens e passageiros) e limpa as ocorrências das viagens anteriores. Os veículos permanecem onde estão e são redistribuídos no início da próxima jornada.
+4. **Encerramento:** gera a lista veículo a veículo (viagens e passageiros) e limpa as ocorrências das viagens anteriores. As garagens são esvaziadas (os veículos voltam ao "pátio" da frota) e são redistribuídos no início da próxima jornada. Por isso, a opção 6 com a jornada encerrada mostra as garagens vazias.
 5. **Cadastros:** veículos e garagens só podem ser cadastrados com a jornada encerrada.
 6. **Para iniciar a jornada:** é preciso ter pelo menos 2 garagens e 1 veículo.
-
 
 ## Estrutura do projeto
 
@@ -55,7 +55,8 @@ ProjetoTransporte/
 │   ├── RelatorioVeiculo.cs    # linha do relatório de encerramento
 │   └── DomainException.cs     # violações de regra de negócio
 ├── UI/
-│   └── Menu.cs                # interação com o usuário
+│   ├── Menu.cs                # interação com o usuário
+│   └── EntradaEncerradaException.cs  # fim da entrada padrão (EOF)
 └── DiagramaDeClasses.mermaid  # diagrama de classes
 ```
 

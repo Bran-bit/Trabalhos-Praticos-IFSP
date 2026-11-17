@@ -60,8 +60,17 @@ public class Transportadora
 
         foreach (var g in _garagens) g.Esvaziar();
 
+        // Distribuição alternada (round-robin): van i vai para a garagem i % N.
+        var porGaragem = _garagens.Select(_ => new List<Veiculo>()).ToList();
         for (int i = 0; i < _frota.Count; i++)
-            _garagens[i % _garagens.Count].Estacionar(_frota[i]);
+            porGaragem[i % _garagens.Count].Add(_frota[i]);
+
+        // Como a garagem é uma pilha (LIFO), empilhamos do maior número para o menor:
+        // assim o menor número de cada garagem fica no topo e é o primeiro a sair
+        // (Congonhas: Van 01 na frente; Guarulhos: Van 02 na frente).
+        for (int g = 0; g < _garagens.Count; g++)
+            for (int j = porGaragem[g].Count - 1; j >= 0; j--)
+                _garagens[g].Estacionar(porGaragem[g][j]);
 
         JornadaIniciada = true;
     }
@@ -77,6 +86,7 @@ public class Transportadora
             .ToList();
 
         foreach (var v in _frota) v.ZerarJornada();
+        foreach (var g in _garagens) g.Esvaziar();   // veículos voltam ao "pátio" até a próxima jornada
         _rotas.Clear();
         _sequencialViagem = 1;
         JornadaIniciada = false;

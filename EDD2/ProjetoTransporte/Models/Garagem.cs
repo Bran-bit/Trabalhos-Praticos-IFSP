@@ -12,7 +12,9 @@ public class Garagem
     public string Nome { get; }
 
     public int Quantidade => _veiculos.Count;
-    public int PotencialTransporte { get; private set; }   // soma das capacidades (mantido incrementalmente, O(1))
+    // Soma das capacidades, mantida incrementalmente (O(1)). Atenção: só Estacionar/Liberar/Esvaziar a alteram.
+    // Se um dia houver remoção fora do topo (quebrando o LIFO), este total precisa ser ajustado também.
+    public int PotencialTransporte { get; private set; }
     public bool EstaVazia => _veiculos.Count == 0;
 
     /// <summary>Veículos do topo (próximo a sair) até o fundo da pilha.</summary>
