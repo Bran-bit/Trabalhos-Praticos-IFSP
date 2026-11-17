@@ -1,0 +1,66 @@
+classDiagram
+    class Transportadora {
+        -List~Veiculo~ _frota
+        -List~Garagem~ _garagens
+        -Dictionary~(int,int), Rota~ _rotas
+        +bool JornadaIniciada
+        +CadastrarVeiculo(capacidade) Veiculo
+        +CadastrarGaragem(nome) Garagem
+        +IniciarJornada() void
+        +EncerrarJornada() List~RelatorioVeiculo~
+        +LiberarViagem(origem, destino) Viagem
+        +BuscarGaragem(id) Garagem
+        +QuantidadeViagens(origem, destino) int
+        +ListarViagens(origem, destino) List~Viagem~
+        +TotalPassageiros(origem, destino) int
+    }
+    class Garagem {
+        -Stack~Veiculo~ _veiculos
+        +int Id
+        +string Nome
+        +int Quantidade
+        +int PotencialTransporte
+        +bool EstaVazia
+        +Estacionar(veiculo) void
+        +Liberar() Veiculo
+        +Esvaziar() void
+    }
+    class Veiculo {
+        +int Numero
+        +int Capacidade
+        +int ViagensNaJornada
+        +int PassageirosNaJornada
+        +RegistrarViagem(passageiros) void
+        +ZerarJornada() void
+    }
+    class Rota {
+        +int QuantidadeViagens
+        +int TotalPassageiros
+        +Registrar(viagem) void
+    }
+    class Viagem {
+        +int Sequencial
+        +int Passageiros
+        +DateTime Saida
+    }
+    class RelatorioVeiculo {
+        +int NumeroVeiculo
+        +int Viagens
+        +int Passageiros
+    }
+    class Menu {
+        +Executar() void
+    }
+    class DomainException
+
+    Menu --> Transportadora : usa
+    Transportadora "1" o-- "*" Veiculo : frota
+    Transportadora "1" o-- "*" Garagem : garagens
+    Transportadora "1" *-- "*" Rota : por origem/destino
+    Garagem "1" o-- "*" Veiculo : pilha (LIFO)
+    Rota "1" *-- "*" Viagem
+    Rota --> Garagem : origem
+    Rota --> Garagem : destino
+    Viagem --> Veiculo
+    Transportadora ..> RelatorioVeiculo : gera ao encerrar
+    Transportadora ..> DomainException : lança
