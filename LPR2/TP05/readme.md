@@ -3,7 +3,7 @@
 **Instituto Federal de Educação, Ciência e Tecnologia de São Paulo – Campus Cubatão**
 **Disciplina:** Linguagem de Programação 2 (Java) – ADS 471
 **Professor:** Wellington Tuler Moraes
-**Autor:** Brandon Oliveira
+**Autores:** Brandon Oliveira e Eriel de Jesus Souza
 
 ---
 
